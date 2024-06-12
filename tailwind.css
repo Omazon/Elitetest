@@ -1,0 +1,28 @@
+/*
+Theme Name: Elite Test
+Author: Omar Boza
+Description: Elite Theme
+Version: 1.0
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: Lato, sans-serif;
+}
+p{
+    margin-bottom: 15px;
+}
+.owl-prev{
+    position: absolute;
+    font-size: 60px !important;
+    left: -5%;
+    top: 30%;
+}
+.owl-next{
+    position: absolute;
+    font-size: 60px !important;
+    right: -5%;
+    top: 30%;
+}

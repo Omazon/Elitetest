@@ -1,0 +1,16 @@
+{
+  "name": "acf/home",
+  "title": "Home",
+  "description": "Home block for Elite test",
+  "style": [ "file:./src/output.css" ],
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["home"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}
